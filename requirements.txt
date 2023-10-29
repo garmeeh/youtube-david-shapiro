@@ -1,6 +1,5 @@
 cohere==4.32
 langchain==0.0.319
-moviepy==1.0.3
 openai==0.28.1
 pandas==2.1.1
 pinecone-client==2.2.4
