@@ -9,6 +9,7 @@ with st.form(key='my_form'):
     question = st.text_input("Please enter your question:")
     submit_button = st.form_submit_button(label='Ask')
 
+
 thinking_placeholder = st.empty()
 
 if submit_button:
@@ -51,3 +52,7 @@ if submit_button:
 
     # render the HTML content
     click_detector(html_content)
+
+st.markdown(
+    "Created by [Sam Meehan](https://twitter.com/SamMeehan4) and [Gary Meehan](https://twitter.com/garmeeh). Code available on [GitHub](https://github.com/garmeeh/youtube-david-shapiro)"
+)
